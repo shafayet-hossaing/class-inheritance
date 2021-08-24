@@ -1,10 +1,11 @@
+// static key 
 class StaticMethod {
     constructor(name, id, aim){
         this.name = name
         this.id = id
         this.aim = aim
     }
-    static staticMeth(){
+    static staticMeth(){ // static key using
         console.log(`I'm A Static Method`);
     }
 }
